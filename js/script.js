@@ -15,7 +15,7 @@ if (localStorage.getItem("imgData") === null) {
 }
 
 var currentCase = "case1";
-var acceptMoneyPerClick = 0.1;
+var acceptMoneyPerClick = 666.00;
 
 /*=========================Inventory============================*/
 //In inventory: weap skins
@@ -34,10 +34,10 @@ var acceptedsound = true;
 var inventory = {};
 var jackpotInventory = {};
 
-var inventoryMax = 50;
+var inventoryMax = 1000;
 var inventoryCurrent = 0;
 
-var keyPrice = 2.50;
+var keyPrice = 666.00;
 
 var caseDiscount = 0;
 var keyDiscount = 0;
@@ -45,7 +45,7 @@ var keyDiscount = 0;
 var operationCases = {
 	case1: {
 		name: "Weapon Case 1",
-		price: 6.90,
+		price: 666.00,
 		img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5_T3eAQ3i6DMIW0X7ojiwoHax6egMOKGxj4G68Nz3-jCp4itjFWx-ktqfSmtcwqVx6sT"
 	},
 	case2: {
@@ -7023,9 +7023,9 @@ var cases = {
 	case1: {
 		milspec: {
 			weap1: {
-				name: "MP7 | Skulls FT",
-				price: 1.01,
-				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6ryFA957ODDZDFO_-O7kYSCgvrLP7rDkW4f6ZQj2uvCot-g0VGwrxJkMWD6JoXAcQI8ZwrX_1nrxry6g5606ZyYz2wj5Hfvfqeavw"
+				name: "JOEMAMA",
+				price: 1e+308,
+				img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmi22MQmhJhqmpsmhBW6gdjIzWl4i5XZbMQ&usqp=CAU"
 			},
 			weap2: {
 				name: "MP7 | Skulls MW",
